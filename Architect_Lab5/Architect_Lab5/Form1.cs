@@ -21,22 +21,12 @@ namespace Architect_Lab5
             
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnRefresh_Click(object sender, EventArgs e)
         {
             OpenFileDialog f = new OpenFileDialog();
             if (f.ShowDialog() == DialogResult.OK)
             {
-                listBox1.Items.Clear();
+                comboBox1.Items.Clear();
 
 
                 using (StreamReader r = new StreamReader(f.OpenFile()))
@@ -44,11 +34,19 @@ namespace Architect_Lab5
                     string line;
                     while ((line = r.ReadLine()) != null)
                     {
-                        listBox1.Items.Add(line);
+                        comboBox1.Items.Add(line);
 
                     }
                 }
             }
+        }
+
+        private void btnCalculate_Click(object sender, EventArgs e)
+        {
+            string fullClassName = "Architect_Lab5." + comboBox1.SelectedItem;
+            Type type = Type.GetType(fullClassName);
+            Module m = (Module)Activator.CreateInstance(type);
+            m.Do();
         }
     }
 }

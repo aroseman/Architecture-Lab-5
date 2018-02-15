@@ -10,7 +10,7 @@ namespace Architect_Lab5
     {
         public override void Do()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Killing it Bitch!");
         }
     }
 }
