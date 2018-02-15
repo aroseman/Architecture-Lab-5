@@ -1,0 +1,9 @@
+C:\Users\whois\Documents\Repos\Architecture-Lab-5\Architect_Lab5\Architect_Lab5\bin\Debug\Architect_Lab5.exe.config
+C:\Users\whois\Documents\Repos\Architecture-Lab-5\Architect_Lab5\Architect_Lab5\bin\Debug\Architect_Lab5.exe
+C:\Users\whois\Documents\Repos\Architecture-Lab-5\Architect_Lab5\Architect_Lab5\bin\Debug\Architect_Lab5.pdb
+C:\Users\whois\Documents\Repos\Architecture-Lab-5\Architect_Lab5\Architect_Lab5\obj\Debug\Architect_Lab5.csprojResolveAssemblyReference.cache
+C:\Users\whois\Documents\Repos\Architecture-Lab-5\Architect_Lab5\Architect_Lab5\obj\Debug\Architect_Lab5.Form1.resources
+C:\Users\whois\Documents\Repos\Architecture-Lab-5\Architect_Lab5\Architect_Lab5\obj\Debug\Architect_Lab5.csproj.GenerateResource.Cache
+C:\Users\whois\Documents\Repos\Architecture-Lab-5\Architect_Lab5\Architect_Lab5\obj\Debug\Architect_Lab5.csproj.CoreCompileInputs.cache
+C:\Users\whois\Documents\Repos\Architecture-Lab-5\Architect_Lab5\Architect_Lab5\obj\Debug\Architect_Lab5.exe
+C:\Users\whois\Documents\Repos\Architecture-Lab-5\Architect_Lab5\Architect_Lab5\obj\Debug\Architect_Lab5.pdb

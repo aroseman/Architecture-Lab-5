@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Architect_Lab5
 {
-    class Subtract
+    class Subtract : Module
     {
+        public override void Do()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

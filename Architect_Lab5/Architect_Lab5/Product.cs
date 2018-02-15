@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Architect_Lab5
 {
-    class Product
+    class Product : Module
     {
+        public override void Do()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

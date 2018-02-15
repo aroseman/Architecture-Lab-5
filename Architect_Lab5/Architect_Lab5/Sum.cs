@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Architect_Lab5
 {
-    class Sum
+    class Sum : Module
     {
+        public override void Do()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

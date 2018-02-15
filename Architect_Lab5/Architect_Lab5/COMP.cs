@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace Architect_Lab5
 {
-    class Program
+    class COMP
     {
         static void Main(string[] args)
         {
+            Form1 form = new Form1();
+            form.Show();
         }
     }
 }

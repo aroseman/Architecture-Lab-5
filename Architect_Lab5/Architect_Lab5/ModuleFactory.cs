@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Architect_Lab5
 {
-    class ModuleFactory
+    class ModuleFactory:ModuleFactoryIF
     {
     }
 }

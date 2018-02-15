@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Architect_Lab5
 {
-    class Module
+    abstract class Module
     {
+        private static int CurrentValue;
+
+        public abstract void Do();
     }
 }
